@@ -594,6 +594,14 @@ font-weight: 700;
     height: 40px;
 }
 
+.form-icon {
+    fill: #2e2f42;
+    padding-block: 3px;
+    padding-inline: 0px;
+    width: 18px;
+    height: 24px;
+}
+
 .form-textarea {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
