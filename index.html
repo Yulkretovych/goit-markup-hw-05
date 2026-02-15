@@ -495,5 +495,61 @@
       </div>
     </footer>
     <!--#endregion footer-->
+
+    <!--#region backdrop-->
+
+    <div class="modal-overlay is-open">
+      <div class="modal">
+        <svg class="close-icon" width="24" height="24">
+          <use href="/images/close-black.svg#icon-close-black" />
+        </svg>
+        <p class="overlay-page-name">
+          Leave your contacts and we will call you back
+        </p>
+
+        <div class="form-container">
+          <form class="form">
+            <label class="form-label name-form-label">
+              Name
+              <input class="form-input" type="text" name="user-name" />
+            </label>
+
+            <label class="form-label">
+              Phone
+              <input class="form-input" type="tel" name="user-tel" />
+            </label>
+
+            <label class="form-label">
+              Email
+              <input class="form-input" type="email" name="user-email" />
+            </label>
+
+            <label class="form-label">
+              Comment
+              <textarea
+                class="form-textarea"
+                name="comment"
+                rows="5"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+
+            <div class="checkbox-container">
+              <label class="checkbox">
+                <input type="checkbox" value="accept" name="accept" />
+              </label>
+              <p class="checkbox-text">
+                I accept the terms and conditions of the
+                <span class="checkbox-text-part">Privacy Policy</span>
+              </p>
+            </div>
+
+            <button class="form-button" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--#endregion backdrop-->
   </body>
 </html>
