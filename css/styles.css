@@ -515,6 +515,7 @@ font-weight: 700;
 .footer-form {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
 }
 
 .footer-label {
@@ -543,7 +544,6 @@ font-weight: 700;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding-left: 16px;
     margin-top: 16px;
-    gap: 80px;
 }
 
 .footer-input:hover,
@@ -628,6 +628,7 @@ font-weight: 700;
     min-height: 584px;
     position: relative;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    padding: 72px 24px 24px 24px;
 }
 
 .close-button-wrapper {
@@ -673,7 +674,6 @@ font-weight: 700;
 }
 
 .form-container {
-    margin: auto 24px;
     border-radius: 4px;
     width: 360px;
     height: 336px;
@@ -686,7 +686,6 @@ font-weight: 700;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 72px;
 }
 
 .form-label {
@@ -697,7 +696,7 @@ font-weight: 700;
     color: #8e8f99;
     display: flex;
     flex-direction: column;
-    margin-bottom: 4px;
+    gap: 4px;
     margin-top: 8px;
 }
 
@@ -731,11 +730,12 @@ font-weight: 700;
 .form-icon {
     position: absolute;
     left: 16px;
-    top: 8px;
+    top: 50%;
+    transform: translateY(-50%);
     width: 18px;
     height: 24px;
     fill: #2e2f42;
-    transform: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-wrapper:hover .form-icon,
@@ -815,7 +815,7 @@ font-weight: 700;
 
 .form-button {
     border-radius: 4px;
-     padding-block: 16px;
+    padding-block: 16px;
     padding-inline: 32px;
     width: 169px;
     height: 56px;
@@ -827,7 +827,6 @@ font-weight: 700;
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
-    padding: 16px 32px;
     margin: 24px 95px;
     cursor: pointer;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
