@@ -495,22 +495,23 @@
 
         <div class="footer-form-container">
           <form class="footer-form">
-            <label class="footer-label">
-              Subscribe
-              <input
-                class="footer-input"
-                type="email"
-                name="user-email"
-                placeholder="E-mail"
-              />
-            </label>
-
-            <button type="submit" class="footer-form-button">
-              Subscribe
-              <svg width="24" height="24" class="button-icon">
-                <use href="./images/icons.svg#icon-icon-send" />
-              </svg>
-            </button>
+            <p class="footer-socials-title footer-form-title">Subscribe</p>
+            <div class="footer-label-container">
+              <label class="footer-label">
+                <input
+                  class="footer-input"
+                  type="email"
+                  name="user-email"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button type="submit" class="footer-form-button">
+                Subscribe
+                <svg width="24" height="24" class="button-icon">
+                  <use href="./images/icons.svg#icon-icon-send" />
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
@@ -535,46 +536,57 @@
 
         <div class="form-container">
           <form class="form">
-            <div class="input-wrapper">
+            <div class="label-wrapper">
               <label class="form-label name-form-label"
                 >Name
-                <input
-                  class="form-input"
-                  type="text"
-                  name="user-name"
-                  required
-                />
-                <svg width="18" height="24" class="form-icon">
-                  <use href="./images/icons.svg#icon-vector" />
-                </svg>
+                <div class="input-wrapper">
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="user-name"
+                    required
+                  />
+                  <svg width="18" height="24" class="form-icon">
+                    <use href="./images/icons.svg#icon-vector" />
+                  </svg>
+                </div>
               </label>
             </div>
 
-            <div class="input-wrapper">
+            <div class="label-wrapper">
               <label class="form-label">
                 Phone
-                <input class="form-input" type="tel" name="user-tel" required />
-                <svg width="18" height="24" class="form-icon">
-                  <use
-                    class="form-input-phone"
-                    href="./images/icons.svg#icon-phone"
+                <div class="input-wrapper">
+                  <input
+                    class="form-input"
+                    type="tel"
+                    name="user-tel"
+                    required
                   />
-                </svg>
+                  <svg width="18" height="24" class="form-icon">
+                    <use
+                      class="form-input-phone"
+                      href="./images/icons.svg#icon-phone"
+                    />
+                  </svg>
+                </div>
               </label>
             </div>
 
-            <div class="input-wrapper">
+            <div class="label-wrapper">
               <label class="form-label">
                 Email
-                <input
-                  class="form-input"
-                  type="email"
-                  name="user-email"
-                  required
-                />
-                <svg width="18" height="24" class="form-icon">
-                  <use href="./images/icons.svg#icon-email" />
-                </svg>
+                <div class="input-wrapper">
+                  <input
+                    class="form-input"
+                    type="email"
+                    name="user-email"
+                    required
+                  />
+                  <svg width="18" height="24" class="form-icon">
+                    <use href="./images/icons.svg#icon-email" />
+                  </svg>
+                </div>
               </label>
             </div>
 
